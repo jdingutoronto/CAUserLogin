@@ -27,4 +27,8 @@ public interface LoginUserDataAccessInterface {
      */
     User get(String username);
 
+    /**
+     * Sample Comment.
+     */
+    void setCurrentUser(String name);
 }
